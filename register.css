@@ -1,0 +1,83 @@
+
+h2
+{
+  padding: 10px 0px 0px 30px;
+  font-family: proxima-semibold;
+  font-size: 40px;
+}
+.login-page {
+  width: 460px;
+  padding: 4% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  width: 140%;
+  margin: 40 100px;
+  padding: 45px;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input,select{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  height: 47px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+  font-size: 14px;
+}
+.form div input
+{
+  width: 50%;
+  text-align: left;
+  margin-right: 10px;
+  padding-right: 94px;  
+}
+.group
+{
+  display: flex;
+}
+.height input{
+  height: 40px;
+  width: 100px;
+  padding-bottom: 50px;
+}
+.submit input{
+  font-weight: 700;
+  font-size: 30px;
+  color: red;
+  border: none; 
+  background-color: transparent;
+}
+
+/*BUTTON*/
+.form a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background: transparent;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: red;
+  font-size: 30px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: bold;
+}
+
+body {
+  background: url("im.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1100px;
+}   

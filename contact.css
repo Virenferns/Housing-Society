@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.contact{
+	background: url("im.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 457px;
+}
+.contact p{
+	text-align: right;
+	font-size: 20px;
+	font-family: proxima-semibold;
+}
+.contact p a{
+	padding: 25px;
+    text-decoration: none;
+}
+.contact p a:hover, .contact p a:focus{
+    color: black;
+    border-bottom: 1px solid blue;
+	padding-bottom: 5px;
+}
+.contact p a.active{
+	color: black;
+    border-bottom: 1px solid blue;
+	padding-bottom: 5px;
+}
+.contact h1
+{
+	padding: 20px 0px 0px 10px;
+	font-family: proxima-semibold;
+}
+.title{
+	font-size: 7.4em;
+	margin: 100px 0px 15px 0px;
+	line-height: 88px;
+	font-family: gibsom-semibold;
+	text-align: center;
+	color: white;	
+}
+.highlight{
+	padding: 0px 20px 0px 18px;
+	background-color: red;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+/* CONTACT INFO */
+
+.a1{
+	position:relative;
+	top: 70px;
+	left: 100px;
+}/*SUB CONTACT INFO*/
+
+.contact1 .a1 .a h2{
+	color: black;
+	text-transform: uppercase;
+	line-height: 1em;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 1.6em;
+}
+i.fa-map-marker{
+	height: 60px;
+	text-align: center;
+	margin-bottom: 0.625em;
+	width: 60px;
+	font-size: 20px;
+	border-radius: 60px;
+	display: block;
+	line-height: 60px;
+	background-color: red;
+}
+div.sec{
+	margin-left: 40px;
+	margin-bottom: 1.2em; 
+}
+.sec h4{
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+}
+.contact1 .a1 .a p{
+	line-height: 1.3em;
+	font-size: 1.1em;
+}
+/*FEEDBACK*/
+.b{
+	position: absolute;
+	top: 0px;
+	left: 550px;
+	height: 850px;
+	width: 650px;
+	margin-right: auto;
+	float: left;
+}
+.b h2{
+	color: black;
+	line-height: 1em;
+	display: block;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 1.6em;
+}
+.form{
+	line-height: 1.6em;
+}
+.line{
+	padding: 0;
+	margin: 0 auto;
+	max-width: 71.25em;
+	clear: left;
+}
+.name input,.mail input, .subject textarea{
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 0.625em;
+	width: 80%;
+	height: 3.3em;
+	margin-bottom: 1.25em;
+	border-radius: 3px;
+}
+.button{
+	width: 33.3333%;
+}
+.button button{
+	border:0 none;
+	height: 3.3em;
+	padding: 0.625em;
+	cursor: pointer;
+	width: 100%;
+	font-size: 0.9em;
+	font-family: inherit;
+	margin-bottom: 1.25em;
+	border-radius: 3px;
+	background-color: red;
+	color: white;
+}
+/*social sites*/
+.a2{
+	position: relative;
+}
+.a2{
+	position: absolute;
+	background-color: red;
+	top: 1000px;
+	height: 70px;
+	padding: 1.25em;
+	text-align: center;
+	list-style: none outside none;
+}
+.fa{
+	color: white;
+	margin-right: 8px;
+	font-size: 2.5em;
+	font-style: normal;
+	font-weight: normal;
+}
+/*maps*/
+.a3{
+	position: relative;
+}
+iframe{
+	width: 1349px;
+	height: 450px;
+	position: absolute;
+	top: 215px;
+	left: 0px;
+	right: 0px;
+}
+/*FOOTER*/
